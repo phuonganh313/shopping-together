@@ -1,0 +1,138 @@
+.left {
+    margin-left: 5px;
+}
+
+.product-qty {
+    width: 50px;
+}
+
+.product-variant {
+    width: 80%;
+    height: 35px;
+    font-size: 13px;
+}
+
+.spt-add-to-cart {
+    border: 1px solid transparent;
+    padding: 5px 23px;
+    border-radius: 5px;
+    font-size: 14px;
+    float: right;
+    margin: 23px 24px 24px 0;
+}
+
+.spt-total-price {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.cart-rule{
+    background: #f5f5f5;
+    float: left;
+    margin-bottom:24px;
+}
+spt-title
+.inactive {
+    border-color: red;
+}
+
+.active {
+    border-color: #0c8837;
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+.related-products{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0 24px;
+}
+.related-products > div {
+    margin-bottom: 4px;
+}
+.related-products .img{
+    width: 20%;
+    float: left;
+}
+.related-products .img .variant-img{
+    width: 75%;
+    height: 75%;
+}
+.related-products .name-product{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+}
+.related-products .info-wrap{
+    width: 30%;
+    float: left;
+}
+.related-products .var-product{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.related-products .price-wrap {
+    width: 49%;
+    float: left;
+}
+.related-products .price-old,
+.related-products .price-new{
+    width: 50%;
+    float: left;
+    text-align:right;
+    font-size: 14px;
+}
+.spt-total span:nth-child(1){
+    display: block;
+    width: 30%;
+    float: left;
+}
+.split-title-product{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    min-height: 19px;
+}
+.cart-rule .spt-title {
+    text-align: center;
+    padding: 24px 24px 10px 24px;
+    font-size:22px;
+}
+.spt-total {
+    font-weight: bold;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding: 10px 24px 0;
+}
+@media (max-width:750px){
+    .related-products .img {
+        width: 16%;
+    }
+}
+@media (max-width:450px){
+    .related-products .img {
+        width: 30%;
+    }
+    .related-products .info-wrap {
+        width: 50%;
+    }
+    .related-products .price-wrap {
+        width: 70%;
+    }
+    .related-products .price-old, .related-products .price-new{
+        text-align:left;
+    }
+}
+@media (max-width:370px){
+    .related-products {
+        padding: 0 12px;
+    }
+    .spt-total {
+        padding: 10px 12px 0;
+    }
+}

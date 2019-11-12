@@ -1,0 +1,51 @@
+{
+  "name": "reactskeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "react",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
+    "@shopify/polaris": "^3.0.0",
+    "babel-preset-env": "^1.7.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "rc-color-picker": "^1.2.6",
+    "react": "^16.6.0",
+    "react-datepicker": "^2.0.0",
+    "react-debounce-input": "^3.2.0",
+    "react-dom": "^16.6.0",
+    "react-js-pagination": "^3.0.2",
+    "react-router-dom": "^4.3.1",
+    "recharts": "^1.4.2",
+    "superagent": "^4.0.0-beta.5"
+  }
+}
