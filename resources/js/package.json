@@ -36,7 +36,7 @@
     "@babel/runtime": "^7.1.2",
     "@shopify/polaris": "^3.0.0",
     "babel-preset-env": "^1.7.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "moment": "^2.23.0",
     "rc-color-picker": "^1.2.6",
     "react": "^16.6.0",
